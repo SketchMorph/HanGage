@@ -1,5 +1,6 @@
 "use client";
 
+import "../app/globals.css";
 import { appWithTranslation } from "next-i18next";
 
 function RootLayout({ children }) {
@@ -10,4 +11,5 @@ function RootLayout({ children }) {
   );
 }
 
+// ⚠️ 꼭 appWithTranslation으로 export
 export default appWithTranslation(RootLayout);
