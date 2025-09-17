@@ -1,3 +1,4 @@
+// hanbok-site/app/_components/Navbar.jsx
 "use client";
 
 import { useTranslation } from "react-i18next";
