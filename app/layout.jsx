@@ -1,3 +1,4 @@
+// hanbok-site/app/layout.jsx
 "use client";
 
 import "../app/globals.css";
